@@ -72,7 +72,7 @@ curl -X POST -H "Content-Type: application/json" -d "{\"command\": \"stop <conta
 ```
 You can replace <container_id> with actual IDs obtained from the ps command.
 
-##Observing the Results
+## Observing the Results
 After sending requests, check the Flask server logs to observe the Docker commands being executed and their results. If the API is exposed to the public, an attacker could remotely execute arbitrary commands on the host machine, compromising security.
 
 
